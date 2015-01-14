@@ -1,0 +1,12 @@
+"War"
+{
+	"base"		"base"
+	"title"		"War"
+	"maps"		"^gm_"//Gamemode map prefix
+	"menusystem"	"1"
+	"workshopid"	""
+	"settings"
+	{
+	
+	}
+}
