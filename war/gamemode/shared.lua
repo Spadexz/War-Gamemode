@@ -57,7 +57,7 @@ local _map = string.lower( game.GetMap( ) );
 IncludeFiles( "teams/sh_teams.lua", REALM_SHARED );
 IncludeFiles( "admin/sh_teleport.lua", REALM_SHARED );
 IncludeFiles( "chatcommand/sh_chatcmd.lua", REALM_SHARED );
-
+IncludeFiles( "rounds/sh_rounds.lua", REALM_SHARED );
 //
 // CLIENT
 //
@@ -71,7 +71,7 @@ IncludeFiles( "headtext/cl_head_text.lua", REALM_CLIENT );
 //
 IncludeFiles( "menu/sv_menu.lua", REALM_SERVER );
 IncludeFiles( "model_randomizer/sv_rmodel.lua", REALM_SERVER );
-
+IncludeFiles( "rounds/sv_rounds.lua", REALM_SERVER );
 //
 // ADDONS
 //

@@ -21,3 +21,21 @@ end
 end
 
 hook.Add('PlayerSpawn','Default Weapons', DefWeps )
+
+local function AntiFriendlyFire(ply, attacker)
+
+	if ( attacker:IsPlayer()) and (attacker:Team() == ply:Team()) then
+		return false
+	end
+
+end
+hook.Add('PlayerShouldTakeDamage', "Anti Friend Fire", AntiFriendlyFire)
+
+
+function MakeTeam (ply, tm)
+ply:SetTeam(tm) 
+ply:KillSilent() 
+end
+
+
+

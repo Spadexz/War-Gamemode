@@ -39,12 +39,12 @@ end)
 end)
 
         net.Receive("Rteam", function(l,c)
-  c:SetTeam(1)
+  MakeTeam(c, 1)
 end)
 
 
     net.Receive("Bteam", function(l,c)
-  c:SetTeam(2)
+  MakeTeam(c, 2)
 end)
 
 
